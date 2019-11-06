@@ -12,20 +12,20 @@
         android:id="@+id/txtname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Name" />
+        android:hint="Enter Player Name" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="10dp"
-        android:text="Select Gender"
-        android:textSize="20dp" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Select Player Gender"
+             />
 
         <RadioGroup
             android:id="@+id/genderG"
@@ -37,7 +37,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Female" />
+                android:text="Male" />
 
             <RadioButton
                 android:id="@+id/rbm"
@@ -45,7 +45,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_weight="1"
-                android:text="Male" />
+                android:text="Female" />
 
         </RadioGroup>
 
@@ -63,7 +63,7 @@
             android:id="@+id/txtage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="AGE"
+            android:hint="Enter Player Age"
             android:inputType="number" />
     </LinearLayout>
 
@@ -89,7 +89,7 @@
 
             android:layout_weight="1"
 
-            android:text="Selected Image" />
+            android:text="Selected Player Images" />
 
 
 
@@ -111,12 +111,12 @@
 
         android:id="@+id/btnsave"
 
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
 
         android:layout_height="wrap_content"
 
         android:layout_gravity="center"
-
+        android:textColor="#0000ff"
         android:layout_marginTop="10dp"
 
         android:text="SAVE" />
